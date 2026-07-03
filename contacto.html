@@ -34,22 +34,30 @@
        </ul>
      </div>
    </div>
- </nav>
-  <div class="containr text-center mt-5">
-     <div class="row aling-items-center">
-         <div class="col-md-6">
-             <h1>¡Bienvenidos a Solcitos Cerámica!</h1>
-             <p class="lead mt-4">
-               En Solcitos Cerámica te espera una variedad de cositas artesanales que te van a encantar.
-               Navegá por nuestro sitio para conocer nuestros productos, dónde estamos, nuestros horarios de atención y las formas de contactarnos.
-             </p>
+ </nav>  
+ <div class="container mt-5">
+     <h1 class="text-center mb-4">Contacto</h1>
+     <p class="text-center">
+        Si tenés alguna consulta, completá el siguiente formulario y nos pondremos en contacto con vos.
+     </p>
+     <form>
+         <div class="mb-3">
+             <label for="nombre" class="form-label">Nombre</label>
+             <input type="text" class="form-control" id="nombre" placeholder="Ingresá tu nombre">
          </div>
-         <div class="col-md-6 text-center">
-             <img src="cositas_ceramica.jpg" class="img-fluid rouded shadow">
-         </div>  
-     </div>
-  </div>
-
+         <div class="mb-3">
+             <label for="correo" class="form-label">Correo electrónico</label>
+             <input type="email" class="form-control" id="correo" placeholder="ejemplo@gmail.com">
+         </div>
+         <div class="mb-3">
+             <label for="mensaje" class="form-label">Mensaje</label>
+             <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribí tu mensaje"></textarea>
+         </div>
+         <button type="submit" class="btn btn-primary">
+             Enviar
+         </button>
+     </form>
+ </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
